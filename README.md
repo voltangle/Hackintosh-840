@@ -9,7 +9,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 | macOS Codename | macOS Version | Support | Planned support | Stability |
 | --- | --- | --- | --- | --- |
 | Big Sur | 11 | No | Yes | N/A |
-| Catalina | 10.15.5 | Yes | Yes | Bad |
+| Catalina | 10.15.5 | Yes | Yes | Medium |
 
 ## Versions
 | Version | Channel | Changelog |
