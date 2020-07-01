@@ -30,7 +30,9 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 ## Known bugs
 
  - Display is not recognized as stock MacBook display
- - Battery info does not show percentage
+ - Wi-Fi doesn't work correct
+ - No sound
+ - No microphone
  - Gestures on trackpad doesn't work
  
  If you want to contribute, feel free to create issues and pull requests!
