@@ -14,6 +14,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 ## Versions
 | Version | Channel | Changelog |
 | --- | --- | --- |
+| 0.2 | beta | Fixed a lot of bugs. For mor info visit the `Releases` page |
 | 0.1 | alpha | Initial release. Only for testing purposes. |
 
 ## Working components
@@ -29,7 +30,6 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 ## Known bugs
 
- - Display is not recognized as stock MacBook display
  - Wi-Fi doesn't work correct
  - No sound
  - No microphone
