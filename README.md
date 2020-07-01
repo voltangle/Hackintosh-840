@@ -21,11 +21,11 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 | Component | Component model | State |
 | --- | --- | --- |
-| Wifi | Intel Wireless AC 8260 | Not working |
-| Bluetooth | Intel Wireless AC 8260 | Not working |
-| Graphics | Intel HD Graphics 520 | With bugs |
+| Wifi | Intel Wireless AC 8260 | With bugs |
+| Bluetooth | Intel Wireless AC 8260 | Working |
+| Graphics | Intel HD Graphics 520 | Works |
 | Sound | Bang&Olufsen | Not working |
-| Battery | N\A(Stock) | With bugs |
+| Battery | N\A(Stock) | Working |
 | Trackpad | Synaptics | With bugs |
 
 ## Known bugs
