@@ -64,6 +64,7 @@
 			</dict>
 			<key>Patches</key>
 			<array>
+				
 				<dict>
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
@@ -373,180 +374,200 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 dart=0 -igfxnohdmi shikigva=160 shiki-id=Mac-7BA5B2D9E42DDD94 -disablefxfirmware</string>
+		<string>kext-dev-mode=1 dart=0 -igfxnohdmi</string>
+		<key>NeverHibernate</key>
+		<true/>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
-		<key>Fast</key>
+		<key>Secure</key>
 		<false/>
+		<key>Fast</key>
+		<true/>
 		<key>Timeout</key>
-		<integer>10</integer>
+		<integer>0</integer>
+		<key>Debug</key>
+		<false/>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>UseARTFrequency</key>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>#AddProperties</key>
+		<array>
+			<dict>
+				<key>Device</key>
+				<string>NVidia</string>
+				<key>Key</key>
+				<string>AAPL,HasPanel</string>
+				<key>Value</key>
+				<data>
+				AQAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Device</key>
+				<string>NVidia</string>
+				<key>Key</key>
+				<string>AAPL,Haslid</string>
+				<key>Value</key>
+				<data>
+				AQAAAA==
+				</data>
+			</dict>
+		</array>
+		<key>#ForceHPET</key>
+		<false/>
+		<key>#Inject</key>
+		<false/>
+		<key>#Properties</key>
+		<string>7a00000001000000010000006e0000000200000002010c00d041030a0000000001010600001b7fff040028000000500069006e0043006f006e00660069006700750072006100740069006f006e00730000000800000001080100180000006c00610079006f00750074002d00690064000000080000000c000000</string>
+		<key>#SetIntelBacklight</key>
+		<false/>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>0</integer>
-		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
-			<dict>
-				<key>framebuffer-con3-alldata</key>
-				<data>AwYKAAAIAACHAQAA</data>
-				<key>framebuffer-con3-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-portcount</key>
-				<integer>4</integer>
-			</dict>
+			<string>NO</string>
 		</dict>
 		<key>USB</key>
 		<dict>
+			<key>AddClockID</key>
+			<true/>
+			<key>FixOwnership</key>
+			<true/>
+			<key>HighCurrent</key>
+			<true/>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
-	<key>DisableDrivers</key>
-	<array>
-		<string>VBoxHfs</string>
-	</array>
 	<key>GUI</key>
 	<dict>
-		<key>Custom</key>
-		<dict>
-			<key>Entries</key>
-			<array>
-				<dict>
-					<key>Hidden</key>
-					<true/>
-					<key>Type</key>
-					<string>OSXRecovery</string>
-				</dict>
-				<dict>
-					<key>Title</key>
-					<string>Windows</string>
-					<key>Type</key>
-					<string>Windows</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Hide</key>
-		<array/>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
+			<key>DoubleClick</key>
+			<integer>500</integer>
 			<key>Enabled</key>
-			<false/>
-		</dict>
-		<key>Scan</key>
-		<dict>
-			<key>Entries</key>
 			<true/>
-			<key>Legacy</key>
+			<key>Mirror</key>
 			<false/>
-			<key>Tool</key>
-			<true/>
+			<key>Speed</key>
+			<integer>8</integer>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Simple</string>
+		<string>simple</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
 		<key>Inject</key>
 		<dict>
+			<key>ATI</key>
+			<false/>
 			<key>Intel</key>
 			<false/>
+			<key>NVidia</key>
+			<false/>
 		</dict>
+		<key>NvidiaNoEFI</key>
+		<false/>
+		<key>NvidiaSingle</key>
+		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
+		<key>#ATIConnectorsController</key>
+		<string>6000</string>
+		<key>#ATIConnectorsData</key>
+		<string>000400000403000000010000210302040400000014020000000100000000040310000000100000000001000000000001</string>
+		<key>#ATIConnectorsPatch</key>
+		<string>040000001402000000010000000004040004000004030000000100001102010500000000000000000000000000000000</string>
+		<key>#FakeCPUID</key>
+		<string>0x010676</string>
 		<key>AppleIntelCPUPM</key>
-		<false/>
+		<true/>
 		<key>AppleRTC</key>
 		<true/>
-		<key>KernelLapic</key>
+		<key>Debug</key>
 		<false/>
+		<key>DellSMBIOSPatch</key>
+		<true/>
+		<key>KernelCpu</key>
+		<true/>
+		<key>KernelLapic</key>
+		<true/>
 		<key>KernelPm</key>
 		<true/>
-		<key>KernelToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>ILniAAAADzA=</data>
-				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.13 release kernel (credit vit9696)</string>
-				<key>Find</key>
-				<data>igKEwHRE</data>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Replace</key>
-				<data>igKEwOtE</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
-				<key>Find</key>
-				<data>igKEwHRC</data>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Replace</key>
-				<data>igKEwOtC</data>
-			</dict>
-		</array>
 		<key>KernelXCPM</key>
-		<false/>
+		<true/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Enable TRIM for non-Apple SSDs</string>
+				<string>Fix IO Error ICH10</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				RYX2D5XCiciD4P5mhcl4D4TSdQs=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
+				<data>
+				iciD4P5mhckPmMFBCMyQkJCQdQs=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>disable port limit in XHCI kext (credit DalianSky,Ricky)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPD4OPBAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.1,10.14.2</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g/sPkJCQkJCQ
+				</data>
 			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>BooterConfig</key>
-		<string>0x28</string>
+		<string>0x0038</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
-		<key>MLB</key>
-		<string>C07624600VWGTQMCW</string>
+		<string>0x3ff</string>
 		<key>ROM</key>
-		<string>086d415999f8</string>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>05/25/2019</string>
+		<string>06/26/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP131.88Z.F000.B00.1905251430</string>
+		<string>MBP131.88Z.0223.B00.1806260754</string>
 		<key>Board-ID</key>
 		<string>Mac-473D31EABEB93F9B</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C07624600VWGTQMCW</string>
+		<string>C02626501CDF64WA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -557,8 +578,6 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>234.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -576,9 +595,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>SerialNumber</key>
-		<string>C02VJRZNGVC1</string>
+		<string>C02RX0VMGVC1</string>
 		<key>SmUUID</key>
-		<string>D7425914-9850-436B-A54E-8E8CB285AE1F</string>
+		<string>465495E9-F24A-48A6-AC35-870062CEE8DB</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
@@ -586,9 +605,13 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>ExposeSysVariables</key>
+		<true/>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
+		<true/>
+		<key>NoCaches</key>
 		<true/>
 	</dict>
 </dict>
