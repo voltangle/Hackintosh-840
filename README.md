@@ -30,6 +30,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 ## Known bugs
 
+ - Apple TV/TV+ doesn't work
  - Wi-Fi doesn't work correct
  - No sound
  - No microphone
