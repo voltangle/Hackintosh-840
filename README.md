@@ -12,10 +12,10 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 | Catalina | 10.15.5 | Yes | Yes | Medium |
 
 ## Versions
-| Version | Channel | Changelog |
+| Version | Revision | Changelog |
 | --- | --- | --- |
-| 0.2 | beta | Fixed a lot of bugs. For mor info visit the `Releases` page |
-| 0.1 | alpha | Initial release. Only for testing purposes. |
+| 1.0 | beta1 | Fixed a lot of bugs. For mor info visit the `Releases` page |
+| 1.0 | alpha1 | Initial release. Only for testing purposes. |
 
 ## Working components
 
