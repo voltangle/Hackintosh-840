@@ -64,54 +64,77 @@
 			</dict>
 			<key>Patches</key>
 			<array>
-				
 				<dict>
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Find</key>
-					<data>X0RTTQ==</data>
+					<data>
+					X0RTTQ==
+					</data>
 					<key>Replace</key>
-					<data>WERTTQ==</data>
+					<data>
+					WERTTQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Find</key>
-					<data>RUMwXw==</data>
+					<data>
+					RUMwXw==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
 					<key>Find</key>
-					<data>RUhDMQ==</data>
+					<data>
+					RUhDMQ==
+					</data>
 					<key>Replace</key>
-					<data>RUgwMQ==</data>
+					<data>
+					RUgwMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EHC2 to EH02</string>
 					<key>Find</key>
-					<data>RUhDMg==</data>
+					<data>
+					RUhDMg==
+					</data>
 					<key>Replace</key>
-					<data>RUgwMg==</data>
+					<data>
+					RUgwMg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -119,225 +142,337 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>SEVDSQhfQURSDAAAFgA=</data>
+					<data>
+					SEVDSQhfQURSDAAAFgA=
+					</data>
 					<key>Replace</key>
-					<data>SEVDSQhfQURSDAAAAAA=</data>
+					<data>
+					SEVDSQhfQURSDAAAAAA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change HDAS to HDEF</string>
 					<key>Find</key>
-					<data>SERBUw==</data>
+					<data>
+					SERBUw==
+					</data>
 					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>
+					SERFRg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change B0D3 to HDAU</string>
 					<key>Find</key>
-					<data>QjBEMw==</data>
+					<data>
+					QjBEMw==
+					</data>
 					<key>Replace</key>
-					<data>SERBVQ==</data>
+					<data>
+					SERBVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(UPRW,2,S) to XPRW</string>
 					<key>Find</key>
-					<data>VVBSVwpwEg==</data>
+					<data>
+					VVBSVwpwEg==
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwpwEg==</data>
+					<data>
+					WFBSVwpwEg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GPRW,2,N) to XPRW</string>
 					<key>Find</key>
-					<data>R1BSVwI=</data>
+					<data>
+					R1BSVwI=
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwI=</data>
+					<data>
+					WFBSVwI=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change LANC Method(_PRW,0,Serialized) to Method(XPRW,0,..)</string>
 					<key>Find</key>
-					<data>AAAZABQfX1BSVwg=</data>
+					<data>
+					AAAZABQfX1BSVwg=
+					</data>
 					<key>Replace</key>
-					<data>AAAZABQfWFBSVwg=</data>
+					<data>
+					AAAZABQfWFBSVwg=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change _PTS to ZPTS</string>
 					<key>Find</key>
-					<data>X1BUUwE=</data>
+					<data>
+					X1BUUwE=
+					</data>
 					<key>Replace</key>
-					<data>WlBUUwE=</data>
+					<data>
+					WlBUUwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change _WAK to ZWAK</string>
 					<key>Find</key>
-					<data>X1dBSwE=</data>
+					<data>
+					X1dBSwE=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwE=</data>
+					<data>
+					WldBSwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change _WAK to ZWAK (G3)</string>
 					<key>Find</key>
-					<data>X1dBSwk=</data>
+					<data>
+					X1dBSwk=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwk=</data>
+					<data>
+					WldBSwk=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTIF,1,Serialized) to BTI0</string>
 					<key>Find</key>
-					<data>QlRJRgl5Cg==</data>
+					<data>
+					QlRJRgl5Cg==
+					</data>
 					<key>Replace</key>
-					<data>QlRJMAl5Cg==</data>
+					<data>
+					QlRJMAl5Cg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTIF,1,Serialized) to BTI0 (G3)</string>
 					<key>Find</key>
-					<data>QlRJRgl5AWg=</data>
+					<data>
+					QlRJRgl5AWg=
+					</data>
 					<key>Replace</key>
-					<data>QlRJMAl5AWg=</data>
+					<data>
+					QlRJMAl5AWg=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTST,2,Serialized) to BTS1</string>
 					<key>Find</key>
-					<data>QlRTVAp5Cg==</data>
+					<data>
+					QlRTVAp5Cg==
+					</data>
 					<key>Replace</key>
-					<data>QlRTMQp5Cg==</data>
+					<data>
+					QlRTMQp5Cg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTST,2,Serialized) to BTS1 (G3)</string>
 					<key>Find</key>
-					<data>QlRTVAp5AWg=</data>
+					<data>
+					QlRTVAp5AWg=
+					</data>
 					<key>Replace</key>
-					<data>QlRTMQp5AWg=</data>
+					<data>
+					QlRTMQp5AWg=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(SBTC,3,NotSerialized) to SBT2</string>
 					<key>Find</key>
-					<data>U0JUQwNwDQ==</data>
+					<data>
+					U0JUQwNwDQ==
+					</data>
 					<key>Replace</key>
-					<data>U0JUMgNwDQ==</data>
+					<data>
+					U0JUMgNwDQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GBTI,1,NotSerialized) to GBT3</string>
 					<key>Find</key>
-					<data>R0JUSQFwDQ==</data>
+					<data>
+					R0JUSQFwDQ==
+					</data>
 					<key>Replace</key>
-					<data>R0JUMwFwDQ==</data>
+					<data>
+					R0JUMwFwDQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GBTC,0,NotSerialized) to GBT4</string>
 					<key>Find</key>
-					<data>R0JUQwBwDQ==</data>
+					<data>
+					R0JUQwBwDQ==
+					</data>
 					<key>Replace</key>
-					<data>R0JUNABwDQ==</data>
+					<data>
+					R0JUNABwDQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(ITLB,0,NotSerialized) to ITL1 (for G4)</string>
 					<key>Find</key>
-					<data>SVRMQgA=</data>
+					<data>
+					SVRMQgA=
+					</data>
 					<key>Replace</key>
-					<data>SVRMMQA=</data>
+					<data>
+					SVRMMQA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GACW,0,NotSerialized) to XACW (for G4 latest BIOS)</string>
 					<key>Find</key>
-					<data>R0FDVwA=</data>
+					<data>
+					R0FDVwA=
+					</data>
 					<key>Replace</key>
-					<data>WEFDVwA=</data>
+					<data>
+					WEFDVwA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GBAW,0,NotSerialized) to XBAW (for G4 latest BIOS)</string>
 					<key>Find</key>
-					<data>R0JBVwA=</data>
+					<data>
+					R0JBVwA=
+					</data>
 					<key>Replace</key>
-					<data>WEJBVwA=</data>
+					<data>
+					WEJBVwA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Name(NBTI,..) to NBT5</string>
 					<key>Find</key>
-					<data>CE5CVEk=</data>
+					<data>
+					CE5CVEk=
+					</data>
 					<key>Replace</key>
-					<data>CE5CVDU=</data>
+					<data>
+					CE5CVDU=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(\_SB.BAT0,...) to Notify(_SB.BATC,...)</string>
 					<key>Find</key>
-					<data>hlwuX1NCX0JBVDA=</data>
+					<data>
+					hlwuX1NCX0JBVDA=
+					</data>
 					<key>Replace</key>
-					<data>hlwuX1NCX0JBVEM=</data>
+					<data>
+					hlwuX1NCX0JBVEM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(\_SB.BAT1,...) to Notify(_SB.BATC,...)</string>
 					<key>Find</key>
-					<data>hlwuX1NCX0JBVDE=</data>
+					<data>
+					hlwuX1NCX0JBVDE=
+					</data>
 					<key>Replace</key>
-					<data>hlwuX1NCX0JBVEM=</data>
+					<data>
+					hlwuX1NCX0JBVEM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(BAT0,...) to Notify(BATC,...)</string>
 					<key>Find</key>
-					<data>hkJBVDA=</data>
+					<data>
+					hkJBVDA=
+					</data>
 					<key>Replace</key>
-					<data>hkJBVEM=</data>
+					<data>
+					hkJBVEM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(BAT1,...) to Notify(BATC,...)</string>
 					<key>Find</key>
-					<data>hkJBVDE=</data>
+					<data>
+					hkJBVDE=
+					</data>
 					<key>Replace</key>
-					<data>hkJBVEM=</data>
+					<data>
+					hkJBVEM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(RDSS,1,S) to XDSS</string>
 					<key>Find</key>
-					<data>UkRTUwk=</data>
+					<data>
+					UkRTUwk=
+					</data>
 					<key>Replace</key>
-					<data>WERTUwk=</data>
+					<data>
+					WERTUwk=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EC Method(_REG,2,N) to XREG, 4x40s, 4x30s</string>
 					<key>Find</key>
-					<data>X1JFRwKgKJNoCgM=</data>
+					<data>
+					X1JFRwKgKJNoCgM=
+					</data>
 					<key>Replace</key>
-					<data>WFJFRwKgKJNoCgM=</data>
+					<data>
+					WFJFRwKgKJNoCgM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EC Method(_REG,2,N) to XREG, 4x0 G3 Skylake</string>
 					<key>Find</key>
-					<data>X1JFRwKgFJNoCgM=</data>
+					<data>
+					X1JFRwKgFJNoCgM=
+					</data>
 					<key>Replace</key>
-					<data>WFJFRwKgFJNoCgM=</data>
+					<data>
+					WFJFRwKgFJNoCgM=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>RTC fix</string>
 					<key>Find</key>
-					<data>RwFwAHAAAQg=</data>
+					<data>
+					RwFwAHAAAQg=
+					</data>
 					<key>Replace</key>
-					<data>RwFwAHAAAQI=</data>
+					<data>
+					RwFwAHAAAQI=
+					</data>
 				</dict>
 			</array>
 		</dict>
@@ -375,18 +510,18 @@
 	<dict>
 		<key>Arguments</key>
 		<string>kext-dev-mode=1 dart=0 -igfxnohdmi</string>
-		<key>NeverHibernate</key>
-		<true/>
-		<key>DefaultVolume</key>
-		<string>Macintosh HD</string>
-		<key>Secure</key>
-		<false/>
-		<key>Fast</key>
-		<true/>
-		<key>Timeout</key>
-		<integer>0</integer>
 		<key>Debug</key>
 		<false/>
+		<key>DefaultVolume</key>
+		<string>Macintosh HD</string>
+		<key>Fast</key>
+		<true/>
+		<key>NeverHibernate</key>
+		<true/>
+		<key>Secure</key>
+		<false/>
+		<key>Timeout</key>
+		<integer>0</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
