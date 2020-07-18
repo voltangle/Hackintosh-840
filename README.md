@@ -34,6 +34,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
  - Apple TV/TV+ doesn't work
  - Wi-Fi doesn't work correct
  - Gestures on trackpad doesn't work
+ - The "Charger connected" sound plays only in headphones
  
  If you want to contribute, feel free to create issues and pull requests!
  
@@ -49,7 +50,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
  
 ### Step three: postinstall
 
-Download the postinstall package from [Releases](https://github.com/GGorAA/Hackintosh-840/releases) page. Then, launch Kext Utility, and drag&drop `AppleIntelWifiV2.kext` to Kext Utility window. Wait until it finishes the process (it can ask you for your permission with administrator password prompt, just type in your password and go on), and proceed to next step.
+Download the postinstall .zip package from [Releases](https://github.com/GGorAA/Hackintosh-840/releases) page. Then, launch Kext Utility, and drag&drop `AppleIntelWifiV2.kext` to Kext Utility window. Wait until it finishes the process (it can ask you for your permission with administrator password prompt, just type in your password and go on), and proceed to next step.
 
 ### Step four: enjoy!
 
