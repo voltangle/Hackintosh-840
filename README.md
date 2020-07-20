@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/complete-no-red)
+![](https://img.shields.io/badge/complete-yes-green)
 ![](https://img.shields.io/badge/Latest%20supported-Catalina%2010.15.6-purple)
 
 # Hackintosh 840
