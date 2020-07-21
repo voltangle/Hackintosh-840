@@ -20,6 +20,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 ## Versions
 | Version | Revision | Changelog |
 | --- | --- | --- |
+| 1.3 | Stable | <ul> <li> Added boot chime </li> </ul> |
 | 1.2 | Stable | <ul> <li> Tried to add startup chime </li> <li> Fixed issues with backlight </li> <li> Added HiDPI folder for crispier look. </li> </ul> |
 | 1.1 | Stable | <ul> <li> Added new Clover Bootloader theme </li> <li> Fixed Clover Bootloader GUI glitch because of missing theme </li> </ul> |
 | 1.0 | Stable | <ul> <li> Added support for macOS 10.15.6 </li> <li> Fixed issue with system can't update because of forced boot on Macintosh HD. Boot is still graphical </li> <li> Fixed sound now working </li> <li> Fixed microphone not working </li> </ul> |
