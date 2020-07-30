@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/complete-yes-green)
-![](https://img.shields.io/badge/Latest%20supported-Catalina%2010.15.6-purple)
+![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Developer%20Beta%203-orange)
 
 # Hackintosh 840
 This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3 laptop.
@@ -8,7 +8,9 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 | macOS Codename | macOS Version | Support | Planned support | Stability |
 | --- | --- | --- | --- | --- |
-| Big Sur | 11.0 | No | Yes | N/a |
+| Big Sur | 11.0 Developer Beta 3 | Yes | Yes | N/a |
+| Big Sur | 11.0 Developer Beta 2 | No | Yes | N/a |
+| Big Sur | 11.0 Developer Beta 1 | No | Yes | N/a |
 | Catalina | 10.15.6 | Yes | Yes | Stable |
 | Catalina | 10.15.5 | Yes | Yes | Stable |
 | Catalina | 10.15.4 | Yes | Yes | N/a |
@@ -20,6 +22,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 ## Versions
 | Version | Revision | Changelog |
 | --- | --- | --- |
+| 2.0 | Stable | <ul> <li> Added support for macOS Big Sur </li> </ul> Updated: <ul> <li> Clover revision to r5120 </li> <li> AppleALC.kext to 1.5.1 </li> <li> Lilu.kext to 1.4.6 </li> <li> NoTouchID.kext to 1.0.4 </li> <li> USBInjectAll.kext to 0.7.5 </li> <li> VoodooI2C.kext to 2.4.03 </li> <li> VoodooPS2Controller.kext to 2.1.6 </li> <li> WhateverGreen.kext to 1.4.1 </li> </ul> Deleted CodecCommander.kext due to unnecessary |
 | 1.3 | Stable | <ul> <li> Added boot chime </li> </ul> |
 | 1.2 | Stable | <ul> <li> Tried to add startup chime </li> <li> Fixed issues with backlight </li> <li> Added HiDPI folder for crispier look. </li> </ul> |
 | 1.1 | Stable | <ul> <li> Added new Clover Bootloader theme </li> <li> Fixed Clover Bootloader GUI glitch because of missing theme </li> </ul> |
