@@ -19,6 +19,8 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 | Catalina | 10.15.1 | No | No | N/a |
 | Mojave | 10.14.6 | No | No | N/a |
 
+## Note: Big Sur is not tested. Maybe that installation will be unstable. Big Sur is added to supported versions list because of Clover r5120 update, where in changelog developers said that this release includes kernel patching patterns for Big Sur. If you want to test it out, feel free to try and report result to Issues.
+
 ## Versions
 | Version | Revision | Changelog |
 | --- | --- | --- |
