@@ -8,15 +8,22 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 | macOS Codename | macOS Version | Support | Planned support | Stability |
 | --- | --- | --- | --- | --- |
-| Big Sur | 11.0 | No | Yes | N/A |
-| Catalina | 10.15.6 | Yes | Yes | Full |
-| Catalina | 10.15.5 | Yes | Yes | Full |
+| Big Sur | 11.0 | No | Yes | N/a |
+| Catalina | 10.15.6 | Yes | Yes | Stable |
+| Catalina | 10.15.5 | Yes | Yes | Stable |
+| Catalina | 10.15.4 | Yes | Yes | N/a |
+| Catalina | 10.15.3 | No | No | N/a |
+| Catalina | 10.15.2 | Yes | No | Stable |
+| Catalina | 10.15.1 | No | No | N/a |
+| Mojave | 10.14.6 | No | No | N/a |
 
 ## Versions
 | Version | Revision | Changelog |
 | --- | --- | --- |
-| 1.0 | beta1 | Fixed a lot of bugs. For more info visit the [Releases](https://github.com/GGorAA/Hackintosh-840/releases) page |
-| 1.0 | alpha1 | Initial release. Only for testing purposes. |
+| 1.3 | Stable | <ul> <li> Added boot chime </li> </ul> |
+| 1.2 | Stable | <ul> <li> Tried to add startup chime </li> <li> Fixed issues with backlight </li> <li> Added HiDPI folder for crispier look. </li> </ul> |
+| 1.1 | Stable | <ul> <li> Added new Clover Bootloader theme </li> <li> Fixed Clover Bootloader GUI glitch because of missing theme </li> </ul> |
+| 1.0 | Stable | <ul> <li> Added support for macOS 10.15.6 </li> <li> Fixed issue with system can't update because of forced boot on Macintosh HD. Boot is still graphical </li> <li> Fixed sound now working </li> <li> Fixed microphone not working </li> </ul> |
 
 ## Working components
 
