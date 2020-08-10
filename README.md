@@ -20,15 +20,6 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 ## Note: Big Sur is not tested. Maybe that installation will be unstable. Big Sur is added to supported versions list because of Clover r5120 update, where in changelog developers said that this release includes kernel patching patterns for Big Sur. If you want to test it out, feel free to try and report result to Issues.
 
-## Versions
-| Version | Revision | Changelog |
-| --- | --- | --- |
-| 2.0 | Stable | <ul> <li> Added support for macOS Big Sur </li> </ul> Updated: <ul> <li> Clover revision to r5120 </li> <li> AppleALC.kext to 1.5.1 </li> <li> Lilu.kext to 1.4.6 </li> <li> NoTouchID.kext to 1.0.4 </li> <li> USBInjectAll.kext to 0.7.5 </li> <li> VoodooI2C.kext to 2.4.03 </li> <li> VoodooPS2Controller.kext to 2.1.6 </li> <li> WhateverGreen.kext to 1.4.1 </li> </ul> Deleted CodecCommander.kext due to unnecessary |
-| 1.3 | Stable | <ul> <li> Added boot chime </li> </ul> |
-| 1.2 | Stable | <ul> <li> Tried to add startup chime </li> <li> Fixed issues with backlight </li> <li> Added HiDPI folder for crispier look. </li> </ul> |
-| 1.1 | Stable | <ul> <li> Added new Clover Bootloader theme </li> <li> Fixed Clover Bootloader GUI glitch because of missing theme </li> </ul> |
-| 1.0 | Stable | <ul> <li> Added support for macOS 10.15.6 </li> <li> Fixed issue with system can't update because of forced boot on Macintosh HD. Boot is still graphical </li> <li> Fixed sound now working </li> <li> Fixed microphone not working </li> </ul> |
-
 ## Working components
 
 | Component | Component model | State |
