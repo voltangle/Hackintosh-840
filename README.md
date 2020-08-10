@@ -5,6 +5,7 @@
 This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3 laptop.
 
 ## Compatibility table
+### If the macOS version is not included in this list, it means that that version is not supported
 
 | macOS Codename | macOS Version | Support | Planned support | Stability |
 | --- | --- | --- | --- | --- |
@@ -14,11 +15,8 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 | Big Sur | 11.0 Developer Beta 1 | No | No | N/a(Not tested) |
 | Catalina | 10.15.6 | Yes | Yes | Stable |
 | Catalina | 10.15.5 | Yes | Yes | Stable |
-| Catalina | 10.15.4 | Yes | Yes | N/a |
-| Catalina | 10.15.3 | No | No | N/a |
 | Catalina | 10.15.2 | Yes | No | Stable |
-| Catalina | 10.15.1 | No | No | N/a |
-| Mojave | 10.14.6 | No | No | N/a |
+
 
 ## Note: Big Sur is not tested. Maybe that installation will be unstable. Big Sur is added to supported versions list because of Clover r5120 update, where in changelog developers said that this release includes kernel patching patterns for Big Sur. If you want to test it out, feel free to try and report result to Issues.
 
