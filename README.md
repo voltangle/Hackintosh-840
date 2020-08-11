@@ -66,6 +66,10 @@ First, download [Hackintool](https://github.com/headkaze/Hackintool/releases), a
 
 Next, navigate to `EFI > OC` and open  `config.plist` in Xcode. Now, expand `Plaforminfo`, and in it `Generic`. In row `SystemProductName` write `MacBoocPro13,1`, in row `SystemSerialNumber` paste the Serial Number from Hackintool. The same applies to `SystemUUID`: paste there SmUUID from Hackintool.
 
+### Step three.three: make boot GUI
+
+If you haven't closed your `config.plist` in Xcode, good. If not, open it again. In the menu bar select `Find`, and then `Find in Workspace` or press Shift+Command+F. Now, typ in search box `-v`, and click first result. Then, scroll a little bit down to reveal the selected result. Now, select the text box and delect `-v` part from it(if you're curious what does it do, basically it replaces normal graphical boot with console-like boot. Typically used when debugging).
+
 ### Step four: enjoy!
 
 Now you can enjoy your fresh installation of macOS!
