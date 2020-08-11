@@ -1397,9 +1397,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02RX0VMGVC1</string>
+			<string>YOUR-VALUE-HERE</string>
 			<key>SystemUUID</key>
-			<string>465495E9-F24A-48A6-AC35-870062CEE8DB</string>
+			<string>YOUR-VALUE-HERE</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
