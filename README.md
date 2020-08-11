@@ -18,8 +18,6 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 | Catalina | 10.15.2 | Yes | No | Stable |
 
 
-## Note: Big Sur is not tested. Maybe that installation will be unstable. Big Sur is added to supported versions list because of Clover r5120 update, where in changelog developers said that this release includes kernel patching patterns for Big Sur. If you want to test it out, feel free to try and report result to Issues.
-
 ## Working components
 
 | Component | Component model | State |
@@ -29,7 +27,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 | Graphics | Intel HD Graphics 520 | Working |
 | Sound | Bang&Olufsen | Working|
 | Battery | N\A(Stock) | Working |
-| Trackpad | Synaptics | With bugs |
+| Trackpad | Synaptics | Working(gestures too) |
 
 ## Known bugs
 
@@ -64,9 +62,9 @@ Go to Apple > System Preferences > Display > Color, then select P3(display). Thi
 
 ### Step three.two: install serial number and UUID to fix Apple ID, iCloud, App Store, iMessage and more
 
-Download Clover Configurator from the web(later will be included in Postinstall.zip), and open it. Then, go to SMBIOS page, and at the right, click button with arrows, pointing up and down, and select `MacBookPro13,1 Intel Core i5-6360U`. Next, click several times on `Generate New` under Serial Number and SmUUID. Then type Command+S, and click `Save`. Next, open your config.plist(before that mount your EFI, you can do that using Clover Configurator in Mount EFI section), and your recently saved one in PlistEdit Pro(downlaod it from the web) side by side.
+First, download [Hackintool](https://github.com/headkaze/Hackintool/releases), and open it. Go to `System` tab, and in that tab, click `Serial Generator`. At the bottom, select `MacBookPro13,1`, and click at the refresh icon. Now, mount your EFI. Go to `Disks` tab, right-click the EFI partition, and click `Mount`. Then, right-click again, and click `Open`.
 
-And finally, expand SMBIOS section, select everything in it except model and trust sections(they are already included in config.plist), copy them, and paste in `config.plist` in EFI. Now you have working Apple ID, iCloud, App Store, iMessage and so on.
+Next, navigate to `EFI > OC` and open  `config.plist` in Xcode. Now, expand `Plaforminfo`, and in it `Generic`. In row `SystemProductName` write `MacBoocPro13,1`, in row `SystemSerialNumber` paste the Serial Number from Hackintool. The same applies to `SystemUUID`: paste there SmUUID from Hackintool.
 
 ### Step four: enjoy!
 
