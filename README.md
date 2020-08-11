@@ -52,7 +52,21 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
  
 ### Step three: postinstall
 
-Download the postinstall .zip package from [Releases](https://github.com/GGorAA/Hackintosh-840/releases) page. Then, launch Kext Utility, and drag&drop `AppleIntelWifiV2.kext` to Kext Utility window. Wait until it finishes the process (it can ask you for your permission with administrator password prompt, just type in your password and go on), and proceed to next step.
+Download the Postinstall.zip package from release that you are downloading. Then, launch Command Prompt(search via Spotlight or launch from Launchpad), and type:
+```
+sudo mount -uw /
+```
+Next, launch Kext Utility, and drag&drop `AppleIntelWifiV2.kext` to Kext Utility window. Wait until it finishes the process (it will ask you for your permission with administrator password prompt, just type in your password and go on), and proceed to next step.
+
+### Step three.one: fix display colors
+
+Go to Apple > System Preferences > Display > Color, then select P3(display). This fixes blue color represented like purple color.
+
+### Step three.two: install serial number and UUID to fix Apple ID, iCloud, App Store, iMessage and more
+
+Download Clover Configurator from the web(later will be included in Postinstall.zip), and open it. Then, go to SMBIOS page, and at the right, click button with arrows, pointing up and down, and select `MacBookPro13,1 Intel Core i5-6360U`. Next, click several times on `Generate New` under Serial Number and SmUUID. Then type Command+S, and click `Save`. Next, open your config.plist(before that mount your EFI, you can do that using Clover Configurator in Mount EFI section), and your recently saved one in PlistEdit Pro(downlaod it from the web) side by side.
+
+And finally, expand SMBIOS section, select everything in it except model and trust sections(they are already included in config.plist), copy them, and paste in `config.plist` in EFI. Now you have working Apple ID, iCloud, App Store, iMessage and so on.
 
 ### Step four: enjoy!
 
