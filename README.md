@@ -14,8 +14,6 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 | Big Sur | 11.0 Developer Beta 2 | No | No | N/a(Not tested) |
 | Big Sur | 11.0 Developer Beta 1 | No | No | N/a(Not tested) |
 | Catalina | 10.15.6 | Yes | Yes | Stable |
-| Catalina | 10.15.5 | Yes | Yes | Stable |
-| Catalina | 10.15.2 | Yes | No | Stable |
 
 
 ## Working components
@@ -33,7 +31,6 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
  - Apple TV/TV+ doesn't work
  - Wi-Fi doesn't work correct
- - Gestures on trackpad doesn't work
  - The "Charger connected" sound plays only in headphones
  
  If you want to contribute, feel free to create issues and pull requests!
