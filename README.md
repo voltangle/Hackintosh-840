@@ -4,6 +4,13 @@
 # Hackintosh 840
 This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3 laptop.
 
+## Contents
+
+  - [Compatibility table](#compatibility-table)
+  - [Working components](#working-components)
+  - [Known bugs](#known-bugs)
+  - [Installation](#installation)
+
 ## Compatibility table
 ### If the macOS version is not included in this list, it means that that version is not supported
 
