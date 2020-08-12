@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%201-orange)
 
 # Hackintosh 840
-This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3 laptop.
+This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3 laptop. This EFi might be compatible with other laptops from EliteBook 840 lineup(not tested).
 
 ## Contents
 
