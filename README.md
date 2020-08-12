@@ -6,11 +6,18 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 ## Contents
 
-  - ### [Compatibility table](#compatibility-table)
-  - ### [Working components](#working-components)
-  - ### [Known bugs](#known-bugs)
-  - ### [Installation](#installation)
-
+  - [Compatibility table](#compatibility-table)
+  - [Working components](#working-components)
+  - [Known bugs](#known-bugs)
+  - [Installation](#installation)
+     - [Step one: create bootable USB of macOS](#step-one-create-bootable-usb-of-macos)
+     - [Step two: install Hackintosh](#step-two-install-hackintosh)
+     - [Step three: postinstall](#step-three-postinstall)
+        - [Step three.one: fix display colors](#step-threeone-fix-display-colors)
+        - [Step three.two: install serial number and UUID to fix Apple ID, iCloud, App Store, iMessage and more](#step-threetwo-install-serial-number-and-uuid-to-fix-apple-id-icloud-app-store-imessage-and-more)
+        - [Step three.three: make boot look nice](#step-threethree-make-boot-look-nice)
+     - [Step four: enjoy!](#step-four-enjoy)
+     
 ## Compatibility table
 ### If the macOS version is not included in this list, it means that that version is not supported
 
@@ -70,7 +77,7 @@ First, download [Hackintool](https://github.com/headkaze/Hackintool/releases), a
 
 Next, navigate to `EFI > OC` and open  `config.plist` in Xcode. Now, expand `Plaforminfo`, and in it `Generic`. In row `SystemProductName` write `MacBookPro13,1`, in row `SystemSerialNumber` paste the Serial Number from Hackintool. The same applies to `SystemUUID`: paste there SmUUID from Hackintool.
 
-### Step three.three: make boot GUI
+### Step three.three: make boot look nice
 
 If you haven't closed your `config.plist` in Xcode, good. If not, open it again. In the menu bar select `Find`, and then `Find in Workspace` or press Shift+Command+F. Now, typ in search box `-v`, and click first result. Then, scroll a little bit down to reveal the selected result. Now, select the text box and delect `-v` part from it(if you're curious what does it do, basically it replaces normal graphical boot with console-like boot. Typically used when debugging).
 
