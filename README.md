@@ -46,6 +46,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
  - Apple TV/TV+ doesn't work
  - Wi-Fi doesn't work correct
  - The "Charger connected" sound plays only in headphones
+ - iMessage is half-working
  
  If you want to contribute, feel free to create issues and pull requests!
  
