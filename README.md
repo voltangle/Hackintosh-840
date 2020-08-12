@@ -61,7 +61,7 @@ Go to Apple > System Preferences > Display > Color, then select P3(display). Thi
 
 First, download [Hackintool](https://github.com/headkaze/Hackintool/releases), and open it. Go to `System` tab, and in that tab, click `Serial Generator`. At the bottom, select `MacBookPro13,1`, and click at the refresh icon. Now, mount your EFI. Go to `Disks` tab, right-click the EFI partition, and click `Mount`. Then, right-click again, and click `Open`.
 
-Next, navigate to `EFI > OC` and open  `config.plist` in Xcode. Now, expand `Plaforminfo`, and in it `Generic`. In row `SystemProductName` write `MacBoocPro13,1`, in row `SystemSerialNumber` paste the Serial Number from Hackintool. The same applies to `SystemUUID`: paste there SmUUID from Hackintool.
+Next, navigate to `EFI > OC` and open  `config.plist` in Xcode. Now, expand `Plaforminfo`, and in it `Generic`. In row `SystemProductName` write `MacBookPro13,1`, in row `SystemSerialNumber` paste the Serial Number from Hackintool. The same applies to `SystemUUID`: paste there SmUUID from Hackintool.
 
 ### Step three.three: make boot GUI
 
