@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/complete-yes-green)
+![](https://img.shields.io/badge/Working-yes-green)
 ![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%201-orange)
 
 # Hackintosh 840
