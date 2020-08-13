@@ -6,7 +6,7 @@
 # Hackintosh 840
 This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3 laptop. This EFI might be compatible with other laptops from EliteBook 840 lineup(not tested).
 
-Now working for bringing Intel Bluetooth and Intel WiFi to this hackintosh
+Now working for bringing Bluetooth and Intel WiFi to this hackintosh
 
 ## Contents
 
