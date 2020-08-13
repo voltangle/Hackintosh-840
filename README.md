@@ -65,11 +65,7 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
  
 ### Step three: postinstall
 
-Download the Postinstall.zip package from release that you are downloading. Then, launch Command Prompt(search via Spotlight or launch from Launchpad), and type:
-```
-sudo mount -uw /
-```
-Next, launch Kext Utility, and drag&drop `AppleIntelWifiV2.kext` to Kext Utility window. Wait until it finishes the process (it will ask you for your permission with administrator password prompt, just type in your password and go on), and proceed to next step.
+Download the Postinstall.zip package from release that you are downloading. Now, drag both HeliPort and Hackintool apps to `Applications` folder, open `Applications` folder, right-click on HeliPort, and click `Open`, then click `Open` in dialog. This will prevent macOS from saying `This is a not trusted app`. Next, open System Settings. Click Users & Groups. Select your user, and click `Login items`. Click the `+` icon, and select HeliPort from popup window.
 
 ### Step three.one: fix display colors
 
@@ -77,13 +73,15 @@ Go to Apple > System Preferences > Display > Color, then select P3(display). Thi
 
 ### Step three.two: install serial number and UUID to fix Apple ID, iCloud, App Store, iMessage and more
 
-First, download [Hackintool](https://github.com/headkaze/Hackintool/releases), and open it. Go to `System` tab, and in that tab, click `Serial Generator`. At the bottom, select `MacBookPro13,1`, and click at the refresh icon. Now, mount your EFI. Go to `Disks` tab, right-click the EFI partition, and click `Mount`. Then, right-click again, and click `Open`.
+First, open Hackintool from Launchpad or Spotlight. Go to `System` tab, and in that tab, click `Serial Generator`. At the bottom, select `MacBookPro13,1`, and click at the refresh icon. Now, mount your EFI. Go to `Disks` tab, right-click the EFI partition, and click `Mount`. Then, right-click again, and click `Open`.
 
 Next, navigate to `EFI > OC` and open  `config.plist` in Xcode. Now, expand `Plaforminfo`, and in it `Generic`. In row `SystemProductName` write `MacBookPro13,1`, in row `SystemSerialNumber` paste the Serial Number from Hackintool. The same applies to `SystemUUID`: paste there SmUUID from Hackintool.
 
 ### Step three.three: make boot look nice
 
-If you haven't closed your `config.plist` in Xcode, good. If not, open it again. In the menu bar select `Find`, and then `Find in Workspace` or press Shift+Command+F. Now, typ in search box `-v`, and click first result. Then, scroll a little bit down to reveal the selected result. Now, select the text box and delect `-v` part from it(if you're curious what does it do, basically it replaces normal graphical boot with console-like boot. Typically used when debugging).
+If you haven't closed your `config.plist` in Xcode, good. If not, open it again. In the menu bar select `Find`, and then `Find in Workspace` or press Shift+Command+F. Now, type in search box `-v`, and click first result. (If nothing appears, proceed to next step.) Then, scroll a little bit down to reveal the selected result. Now, select the text box and delect `-v` part from it (if you're curious what does it do, basically it replaces normal graphical boot with console-like boot. Typically used when debugging).
+
+Restart your Hackintosh to apply all changes made now.
 
 ### Step four: enjoy!
 
