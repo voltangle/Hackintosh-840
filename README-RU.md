@@ -21,7 +21,7 @@
       - [Шаг три.один: исправьте цвета дисплея](#step-threeone-fix-display-colors)
       - [Шаг три.два: установите серийный номер и UUID для исправления работы Apple ID, iCloud, App Store, iMessage и так далее](#step-threetwo-install-serial-number-and-uuid-to-fix-apple-id-icloud-app-store-imessage-and-more)
       - [Шаг три.три: make boot look nice](#step-threethree-make-boot-look-nice)
-    - [Step four: enjoy!](#step-four-enjoy)
+    - [Шаг четыре: готово!](#step-four-enjoy)
 
 ## Compatibility table
 
