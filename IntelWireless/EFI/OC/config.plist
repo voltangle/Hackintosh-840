@@ -1607,9 +1607,9 @@
 			<string>AudioDxe.efi</string>
 			<string>CrScreenshotDxe.efi</string>
 			<string>HfsPlus.efi</string>
+			<string>NvmExpressDxe.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
-			<string>HPFanReset.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
