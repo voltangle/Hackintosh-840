@@ -36,7 +36,7 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
 
 | Component | Component model | State |
 | --- | --- | --- |
-| Wifi | Intel Wireless AC 8260 | With bugs |
+| Wifi | Intel Wireless AC 8260 | Works, but with some workarounds |
 | Bluetooth | Intel Wireless AC 8260 | Working |
 | Graphics | Intel HD Graphics 520 | Working |
 | Sound | Bang&Olufsen | Working|
@@ -48,6 +48,7 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
  - Apple TV/TV+ doesn't work
  - Wi-Fi doesn't work correct
  - The "Charger connected" sound plays only in headphones
+ - Boot chime plays only in headphones(from mini-jack port)
  - iMessage is half-working
  - Location services doesn't work
  
