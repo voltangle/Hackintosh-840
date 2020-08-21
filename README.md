@@ -52,8 +52,6 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
  - iMessage is half-working
  - Location services doesn't work
  
- If you want to contribute, feel free to create issues and pull requests!
- 
  ## Installation
  ### Step one: create bootable USB of macOS
  
@@ -87,3 +85,6 @@ Restart your Hackintosh to apply all changes made now.
 ### Step four: enjoy!
 
 Now you can enjoy your fresh installation of macOS!
+
+## If you want to contribute, feel free to create issues and pull requests! I always appreciate any help!
+
