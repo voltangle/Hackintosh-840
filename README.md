@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Working-yes-green)
-![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%201-orange)
+![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%203-orange)
 ![](https://img.shields.io/github/issues-raw/GGorAA/Hackintosh-840?color=yellow)
 ![](https://img.shields.io/github/issues-pr/GGorAA/Hackintosh-840)
 
