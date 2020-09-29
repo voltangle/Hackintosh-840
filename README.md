@@ -51,7 +51,6 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
  - The "Charger connected" sound plays only in headphones
  - Boot chime plays only in headphones(from mini-jack port)
  - iMessage is half-working
- - Location services doesn't work
  
  ## Installation
  ### Step one: create bootable USB of macOS
