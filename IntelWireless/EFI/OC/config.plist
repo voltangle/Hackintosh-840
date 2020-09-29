@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#Warning!</key>
-	<string>Hackintosh 840 4.0 Beta 5</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -75,15 +73,11 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>
-				Q3B1UG0AAAA=
-				</data>
+				<data>Q3B1UG0AAAA=</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
+				<data>U1NEVA==</data>
 			</dict>
 			<dict>
 				<key>All</key>
@@ -93,15 +87,11 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>
-				Q3B1MElzdAA=
-				</data>
+				<data>Q3B1MElzdAA=</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
+				<data>U1NEVA==</data>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -114,32 +104,23 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X0NSUwig
-				</data>
+				<data>X0NSUwig</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>Replace</key>
-				<data>
-				WENSUwig
-				</data>
+				<data>WENSUwig</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -147,13 +128,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X0RTTQ==
-				</data>
+				<data>X0RTTQ==</data>
 				<key>Replace</key>
-				<data>
-				WERTTQ==
-				</data>
+				<data>WERTTQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -161,13 +138,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X09TSQ==
-				</data>
+				<data>X09TSQ==</data>
 				<key>Replace</key>
-				<data>
-				WE9TSQ==
-				</data>
+				<data>WE9TSQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -175,13 +148,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				RUMwXw==
-				</data>
+				<data>RUMwXw==</data>
 				<key>Replace</key>
-				<data>
-				RUNfXw==
-				</data>
+				<data>RUNfXw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -189,13 +158,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R0ZYMA==
-				</data>
+				<data>R0ZYMA==</data>
 				<key>Replace</key>
-				<data>
-				SUdQVQ==
-				</data>
+				<data>SUdQVQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -203,13 +168,9 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				SEVDSQhfQURSDAAAFgA=
-				</data>
+				<data>SEVDSQhfQURSDAAAFgA=</data>
 				<key>Replace</key>
-				<data>
-				SEVDSQhfQURSDAAAAAA=
-				</data>
+				<data>SEVDSQhfQURSDAAAAAA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -217,13 +178,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				SERBUw==
-				</data>
+				<data>SERBUw==</data>
 				<key>Replace</key>
-				<data>
-				SERFRg==
-				</data>
+				<data>SERFRg==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -231,13 +188,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				VVBSVwpwEg==
-				</data>
+				<data>VVBSVwpwEg==</data>
 				<key>Replace</key>
-				<data>
-				WFBSVwpwEg==
-				</data>
+				<data>WFBSVwpwEg==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -245,13 +198,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R1BSVwI=
-				</data>
+				<data>R1BSVwI=</data>
 				<key>Replace</key>
-				<data>
-				WFBSVwI=
-				</data>
+				<data>WFBSVwI=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -259,13 +208,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				AAAZABQfX1BSVwg=
-				</data>
+				<data>AAAZABQfX1BSVwg=</data>
 				<key>Replace</key>
-				<data>
-				AAAZABQfWFBSVwg=
-				</data>
+				<data>AAAZABQfWFBSVwg=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -273,13 +218,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1BUUwE=
-				</data>
+				<data>X1BUUwE=</data>
 				<key>Replace</key>
-				<data>
-				WlBUUwE=
-				</data>
+				<data>WlBUUwE=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -287,13 +228,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1dBSwE=
-				</data>
+				<data>X1dBSwE=</data>
 				<key>Replace</key>
-				<data>
-				WldBSwE=
-				</data>
+				<data>WldBSwE=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -301,13 +238,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1dBSwk=
-				</data>
+				<data>X1dBSwk=</data>
 				<key>Replace</key>
-				<data>
-				WldBSwk=
-				</data>
+				<data>WldBSwk=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -315,13 +248,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				QlRJRgl5Cg==
-				</data>
+				<data>QlRJRgl5Cg==</data>
 				<key>Replace</key>
-				<data>
-				QlRJMAl5Cg==
-				</data>
+				<data>QlRJMAl5Cg==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -329,13 +258,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				QlRJRgl5AWg=
-				</data>
+				<data>QlRJRgl5AWg=</data>
 				<key>Replace</key>
-				<data>
-				QlRJMAl5AWg=
-				</data>
+				<data>QlRJMAl5AWg=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -343,13 +268,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				QlRTVAp5Cg==
-				</data>
+				<data>QlRTVAp5Cg==</data>
 				<key>Replace</key>
-				<data>
-				QlRTMQp5Cg==
-				</data>
+				<data>QlRTMQp5Cg==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -357,13 +278,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				QlRTVAp5AWg=
-				</data>
+				<data>QlRTVAp5AWg=</data>
 				<key>Replace</key>
-				<data>
-				QlRTMQp5AWg=
-				</data>
+				<data>QlRTMQp5AWg=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -371,13 +288,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				U0JUQwNwDQ==
-				</data>
+				<data>U0JUQwNwDQ==</data>
 				<key>Replace</key>
-				<data>
-				U0JUMgNwDQ==
-				</data>
+				<data>U0JUMgNwDQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -385,13 +298,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R0JUSQFwDQ==
-				</data>
+				<data>R0JUSQFwDQ==</data>
 				<key>Replace</key>
-				<data>
-				R0JUMwFwDQ==
-				</data>
+				<data>R0JUMwFwDQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -399,13 +308,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R0JUQwBwDQ==
-				</data>
+				<data>R0JUQwBwDQ==</data>
 				<key>Replace</key>
-				<data>
-				R0JUNABwDQ==
-				</data>
+				<data>R0JUNABwDQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -413,13 +318,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				SVRMQgA=
-				</data>
+				<data>SVRMQgA=</data>
 				<key>Replace</key>
-				<data>
-				SVRMMQA=
-				</data>
+				<data>SVRMMQA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -427,13 +328,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R0FDVwA=
-				</data>
+				<data>R0FDVwA=</data>
 				<key>Replace</key>
-				<data>
-				WEFDVwA=
-				</data>
+				<data>WEFDVwA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -441,13 +338,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R0JBVwA=
-				</data>
+				<data>R0JBVwA=</data>
 				<key>Replace</key>
-				<data>
-				WEJBVwA=
-				</data>
+				<data>WEJBVwA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -455,13 +348,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				CE5CVEk=
-				</data>
+				<data>CE5CVEk=</data>
 				<key>Replace</key>
-				<data>
-				CE5CVDU=
-				</data>
+				<data>CE5CVDU=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -469,13 +358,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				hlwuX1NCX0JBVDA=
-				</data>
+				<data>hlwuX1NCX0JBVDA=</data>
 				<key>Replace</key>
-				<data>
-				hlwuX1NCX0JBVEM=
-				</data>
+				<data>hlwuX1NCX0JBVEM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -483,13 +368,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				hlwuX1NCX0JBVDE=
-				</data>
+				<data>hlwuX1NCX0JBVDE=</data>
 				<key>Replace</key>
-				<data>
-				hlwuX1NCX0JBVEM=
-				</data>
+				<data>hlwuX1NCX0JBVEM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -497,13 +378,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				hkJBVDA=
-				</data>
+				<data>hkJBVDA=</data>
 				<key>Replace</key>
-				<data>
-				hkJBVEM=
-				</data>
+				<data>hkJBVEM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -511,13 +388,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				hkJBVDE=
-				</data>
+				<data>hkJBVDE=</data>
 				<key>Replace</key>
-				<data>
-				hkJBVEM=
-				</data>
+				<data>hkJBVEM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -525,13 +398,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				UkRTUwk=
-				</data>
+				<data>UkRTUwk=</data>
 				<key>Replace</key>
-				<data>
-				WERTUwk=
-				</data>
+				<data>WERTUwk=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -539,13 +408,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1JFRwKgKJNoCgM=
-				</data>
+				<data>X1JFRwKgKJNoCgM=</data>
 				<key>Replace</key>
-				<data>
-				WFJFRwKgKJNoCgM=
-				</data>
+				<data>WFJFRwKgKJNoCgM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -553,13 +418,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1JFRwKgFJNoCgM=
-				</data>
+				<data>X1JFRwKgFJNoCgM=</data>
 				<key>Replace</key>
-				<data>
-				WFJFRwKgFJNoCgM=
-				</data>
+				<data>WFJFRwKgFJNoCgM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -567,13 +428,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				RwFwAHAAAQg=
-				</data>
+				<data>RwFwAHAAAQg=</data>
 				<key>Replace</key>
-				<data>
-				RwFwAHAAAQI=
-				</data>
+				<data>RwFwAHAAAQI=</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -661,15 +518,11 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>framebuffer-con3-alldata</key>
-				<data>
-				AwYKAAAIAACHAQAA
-				</data>
+				<data>AwYKAAAIAACHAQAA</data>
 				<key>framebuffer-con3-enable</key>
 				<integer>1</integer>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-portcount</key>
 				<integer>4</integer>
 			</dict>
@@ -681,6 +534,24 @@
 	<dict>
 		<key>Add</key>
 		<array>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>AirportItlwm.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 			<dict>
 				<key>BundlePath</key>
 				<string>IntelBluetoothInjector.kext</string>
@@ -1108,11 +979,9 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>
-			</data>
+			<data></data>
 			<key>Cpuid1Mask</key>
-			<data>
-			</data>
+			<data></data>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -1124,27 +993,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				QGACAA==
-				</data>
+				<data>QGACAA==</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleAHCIPort</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1158,26 +1021,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>
-				ww==
-				</data>
+				<data>ww==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1191,26 +1049,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleACPIPlatform</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>18.5.0</string>
 				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
-				<data>
-				ww==
-				</data>
+				<data>ww==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1224,28 +1077,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				6AAA//9miYMABQAA
-				</data>
+				<data>6AAA//9miYMABQAA</data>
 				<key>Identifier</key>
 				<string>com.apple.iokit.AppleBCM5701Ethernet</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				/wAA////////////
-				</data>
+				<data>/wAA////////////</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				uLQWAABmiYMABQAA
-				</data>
+				<data>uLQWAABmiYMABQAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1259,27 +1105,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4Xb
-				dN/D
-				</data>
+				<data>MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4XbdN/D</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1293,27 +1133,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4Xb
-				dN/D
-				</data>
+				<data>MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4XbdN/D</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1459,32 +1293,23 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>
-				Rg==
-				</data>
+				<data>Rg==</data>
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 agdpmod=vit9696 darkwake=1 alcdelay=500</string>
 				<key>prev-lang:kbd</key>
-				<data>
-				ZW4tVVM6MA==
-				</data>
+				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
