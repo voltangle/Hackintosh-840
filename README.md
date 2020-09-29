@@ -37,7 +37,7 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
 
 | Component | Component model | State |
 | --- | --- | --- |
-| Wifi | Intel Wireless AC 8260 | Works, but with some workarounds |
+| Wifi | Intel Wireless AC 8260 | Buggy(sometimes work, sometimes don't) |
 | Bluetooth | Intel Wireless AC 8260 | Working |
 | Graphics | Intel HD Graphics 520 | Working |
 | Sound | Bang&Olufsen | Working|
