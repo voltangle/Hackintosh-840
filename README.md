@@ -27,7 +27,8 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
 
 | macOS Codename | macOS Version | Support | Planned support | Stability |
 | --- | --- | --- | --- | --- |
-| Big Sur | 11.0 Public Beta 1 | Yes | Yes | Stable |
+| Big Sur | 11.0 Public Beta 3 | Yes | Yes | Stable |
+| Big Sur | 11.0 Public Beta 1 | No | No | Stable |
 | Catalina | 10.15.6 | Yes | Yes | Stable |
 | Catalina | 10.15.5 | Yes | No | Stable |
 
