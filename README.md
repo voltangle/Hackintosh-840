@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Working-yes-green)
-![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%201-orange)
+![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%203-orange)
 ![](https://img.shields.io/github/issues-raw/GGorAA/Hackintosh-840?color=yellow)
 ![](https://img.shields.io/github/issues-pr/GGorAA/Hackintosh-840)
 
@@ -27,7 +27,8 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
 
 | macOS Codename | macOS Version | Support | Planned support | Stability |
 | --- | --- | --- | --- | --- |
-| Big Sur | 11.0 Public Beta 1 | Yes | Yes | Stable |
+| Big Sur | 11.0 Public Beta 3 | Yes | Yes | Stable |
+| Big Sur | 11.0 Public Beta 1 | No | No | Stable |
 | Catalina | 10.15.6 | Yes | Yes | Stable |
 | Catalina | 10.15.5 | Yes | No | Stable |
 
@@ -36,7 +37,7 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
 
 | Component | Component model | State |
 | --- | --- | --- |
-| Wifi | Intel Wireless AC 8260 | Works, but with some workarounds |
+| Wifi | Intel Wireless AC 8260 | Buggy(sometimes work, sometimes don't) |
 | Bluetooth | Intel Wireless AC 8260 | Working |
 | Graphics | Intel HD Graphics 520 | Working |
 | Sound | Bang&Olufsen | Working|
@@ -50,7 +51,6 @@ Now working for bringing Bluetooth and Intel WiFi to this hackintosh
  - The "Charger connected" sound plays only in headphones
  - Boot chime plays only in headphones(from mini-jack port)
  - iMessage is half-working
- - Location services doesn't work
  
  ## Installation
  ### Step one: create bootable USB of macOS
