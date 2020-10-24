@@ -8,8 +8,6 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 
 # Alert: macOS Big Sur Public Beta 10 DOES NOT BOOT! I tried to update, and my hackintosh is now dead. Do NOT repeat my mistakes. Stay on Public Beta 9. Please.
 
-Now working for bringing Bluetooth and Intel WiFi to this hackintosh.
-
 ## Contents
 
   - [Compatibility table](#compatibility-table)
