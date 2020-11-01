@@ -1,12 +1,10 @@
 ![](https://img.shields.io/badge/Working-yes-green)
-![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%209-orange)
+![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Public%20Beta%2010-orange)
 ![](https://img.shields.io/github/issues-raw/GGorAA/Hackintosh-840?color=yellow)
 ![](https://img.shields.io/github/issues-pr/GGorAA/Hackintosh-840)
 
 # Hackintosh 840
 This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3 laptop. This EFI might be compatible with other laptops from EliteBook 840 lineup(not tested).
-
-# Alert: macOS Big Sur Public Beta 10 DOES NOT BOOT! I tried to update, and my hackintosh is now dead. Do NOT repeat my mistakes. Stay on Public Beta 9. Please.
 
 ## Contents
 
