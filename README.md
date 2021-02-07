@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Working-yes-green)
-![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%20Release%20Candidate%202-orange)
+![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%2011.2-orange)
 ![](https://img.shields.io/github/issues-raw/GGorAA/Hackintosh-840?color=yellow)
 ![](https://img.shields.io/github/issues-pr/GGorAA/Hackintosh-840)
 
@@ -44,9 +44,8 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
 ## Known bugs
 
  - Apple TV/TV+ doesn't work
- - Wi-Fi doesn't work correct
+ - Wi-Fi analyzer shows wrong info about a network(like «Hidden network», even when it is not hidden)
  - The "Charger connected" sound plays only in headphones
- - Boot chime plays only in headphones(from mini-jack port)
  
  ## Installation
  ### Step one: create bootable USB of macOS
@@ -74,7 +73,7 @@ Next, navigate to `EFI > OC` and open  `config.plist` in Xcode. Now, expand `Pla
 
 ### Step three.three: make boot look nice
 
-If you haven't closed your `config.plist` in Xcode, good. If not, open it again. In the menu bar select `Find`, and then `Find in Workspace` or press Shift+Command+F. Now, type in search box `-v`, and click first result. (If nothing appears, proceed to next step.) Then, scroll a little bit down to reveal the selected result. Now, select the text box and delect `-v` part from it (if you're curious what does it do, basically it replaces normal graphical boot with console-like boot. Typically used when debugging).
+If you haven't closed your `config.plist` in Xcode, good. If closed, open it again. In the menu bar select `Find`, and then `Find in Workspace` or press Shift+Command+F. Now, type in search box `-v`, and click first result. (If nothing appears, proceed to next step.) Then, scroll a little bit down to reveal the selected result. Now, select the text box and delect `-v` part from it (if you're curious what does it do, basically it replaces normal graphical boot with console-like boot. Typically used when debugging).
 
 Restart your Hackintosh to apply all changes made now.
 
