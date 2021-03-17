@@ -58,7 +58,7 @@ This repo contains EFI configuration, kext and many other for HP ElteBook 840 G3
  
 ### Step three: postinstall
 
-Download the Postinstall.zip package from release that you are downloading. Now, drag both HeliPort and Hackintool apps to `Applications` folder, open `Applications` folder, right-click on HeliPort, and click `Open`, then click `Open` in dialog. This will prevent macOS from saying `This is a not trusted app`. Next, open System Settings. Click Users & Groups. Select your user, and click `Login items`. Click the `+` icon, and select HeliPort from popup window.
+Download [Hackintool](https://github.com/headkaze/hackintool/releases), and place the downloaded app in `Applications`.
 
 ### Step three.one: fix display colors
 
