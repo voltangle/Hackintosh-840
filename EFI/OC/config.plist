@@ -56,17 +56,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-IGPU</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-IGPU.aml</string>
 			</dict>
@@ -92,10 +84,10 @@
 		<key>Patch</key>
 		<array>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>HPET _CRS to XCRS Rename</string>
 				<key>Count</key>
@@ -122,10 +114,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change _DSM to XDSM</string>
 				<key>Count</key>
@@ -152,10 +144,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change _OSI to XOSI</string>
 				<key>Count</key>
@@ -182,10 +174,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change EC0 to EC</string>
 				<key>Count</key>
@@ -212,10 +204,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change GFX0 to IGPU</string>
 				<key>Count</key>
@@ -242,10 +234,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change HDAS to HDEF</string>
 				<key>Count</key>
@@ -272,10 +264,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(UPRW,2,S) to XPRW</string>
 				<key>Count</key>
@@ -302,10 +294,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(GPRW,2,N) to XPRW</string>
 				<key>Count</key>
@@ -332,10 +324,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change LANC Method(_PRW,0,Serialized) to Method(XPRW,0,..)</string>
 				<key>Count</key>
@@ -362,10 +354,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change _PTS to ZPTS</string>
 				<key>Count</key>
@@ -392,10 +384,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change _WAK to ZWAK</string>
 				<key>Count</key>
@@ -422,10 +414,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change _WAK to ZWAK (G3)</string>
 				<key>Count</key>
@@ -452,10 +444,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(BTIF,1,Serialized) to BTI0</string>
 				<key>Count</key>
@@ -482,10 +474,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(BTIF,1,Serialized) to BTI0 (G3)</string>
 				<key>Count</key>
@@ -512,10 +504,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(BTST,2,Serialized) to BTS1</string>
 				<key>Count</key>
@@ -542,10 +534,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(BTST,2,Serialized) to BTS1 (G3)</string>
 				<key>Count</key>
@@ -572,10 +564,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(SBTC,3,NotSerialized) to SBT2</string>
 				<key>Count</key>
@@ -602,10 +594,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(GBTI,1,NotSerialized) to GBT3</string>
 				<key>Count</key>
@@ -632,10 +624,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(GBTC,0,NotSerialized) to GBT4</string>
 				<key>Count</key>
@@ -662,10 +654,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(ITLB,0,NotSerialized) to ITL1 (for G4)</string>
 				<key>Count</key>
@@ -692,10 +684,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(GACW,0,NotSerialized) to XACW (for G4 latest BIOS)</string>
 				<key>Count</key>
@@ -722,10 +714,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(GBAW,0,NotSerialized) to XBAW (for G4 latest BIOS)</string>
 				<key>Count</key>
@@ -752,10 +744,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Name(NBTI,..) to NBT5</string>
 				<key>Count</key>
@@ -782,10 +774,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Notify(\_SB.BAT0,...) to Notify(_SB.BATC,...)</string>
 				<key>Count</key>
@@ -812,10 +804,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Notify(\_SB.BAT1,...) to Notify(_SB.BATC,...)</string>
 				<key>Count</key>
@@ -842,10 +834,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Notify(BAT0,...) to Notify(BATC,...)</string>
 				<key>Count</key>
@@ -872,10 +864,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Notify(BAT1,...) to Notify(BATC,...)</string>
 				<key>Count</key>
@@ -902,10 +894,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change Method(RDSS,1,S) to XDSS</string>
 				<key>Count</key>
@@ -932,10 +924,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change EC Method(_REG,2,N) to XREG, 4x40s, 4x30s</string>
 				<key>Count</key>
@@ -962,10 +954,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change EC Method(_REG,2,N) to XREG, 4x0 G3 Skylake</string>
 				<key>Count</key>
@@ -992,10 +984,10 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>BaseSkip</key>
-				<integer>0</integer>
 				<key>Base</key>
 				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>RTC fix</string>
 				<key>Count</key>
@@ -1044,8 +1036,6 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
-			<key>ForceBooterSignature</key>
-			<false/>
 			<key>AllowRelocationBlock</key>
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
@@ -1062,6 +1052,8 @@
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>ForceBooterSignature</key>
+			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectMemoryRegions</key>
@@ -1095,28 +1087,16 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>@0,display-dual-link</key>
-				<integer>1</integer>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWGQ==</data>
 				<key>device-id</key>
 				<data>FhkAAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel HD Graphics 520</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1170,7 +1150,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>MaxKernel</key>
@@ -1257,12 +1237,12 @@
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>SystemProfilerMemoryFixup.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SystemProfilerMemoryFixup</string>
 				<key>Comment</key>
 				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SystemProfilerMemoryFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1281,12 +1261,12 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -1325,74 +1305,74 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Controller</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Keyboard</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Trackpad</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Mouse</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1526,6 +1506,24 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
 				<string>Airportitlwm.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -1611,18 +1609,12 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
-			<key>ProvideCurrentCpuInfo</key>
-			<false/>
-			<key>ForceSecureBootScheme</key>
-			<false/>
 			<key>AppleCpuPmCfgLock</key>
 			<true/>
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
-			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
@@ -1637,16 +1629,22 @@
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
-			<false/>
+			<true/>
 			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1681,9 +1679,9 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
-			<key>ShowPicker</key>
 			<true/>
+			<key>ShowPicker</key>
+			<false/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -1719,9 +1717,7 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
-			<false/>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
+			<true/>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -1737,7 +1733,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1765,7 +1761,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>darkwake=1 keepsyms=1 -v -no_compact_check -disablegfxfirmware</string>
+				<string>darkwake=0 keepsyms=1</string>
 				<key>csr-active-config</key>
 				<data>AwAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1823,34 +1819,32 @@
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
-		<key>UseRawUuidEncoding</key>
-		<false/>
-		<key>CustomMemory</key>
-		<false/>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
+			<key>MLB</key>
+			<string>PLACE_YOURS</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
-			<key>MLB</key>
-			<string>YOUR-MLB-HERE</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>AAA=</data>
+			<data>AAOTRaez</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro13,1</string>
+			<string>PLACE_YOURS</string>
 			<key>SystemSerialNumber</key>
-			<string>YOUR-SERIAL-HERE</string>
+			<string>PLACE_YOURS</string>
 			<key>SystemUUID</key>
-			<string>YOUR-UUID-HERE</string>
+			<string>PLACE_YOURS</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1860,6 +1854,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -1880,10 +1876,10 @@
 		</dict>
 		<key>AppleInput</key>
 		<dict>
-			<key>CustomDelays</key>
-			<false/>
 			<key>AppleEvent</key>
 			<string>Builtin</string>
+			<key>CustomDelays</key>
+			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
@@ -1896,23 +1892,23 @@
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
-			<integer>351359220</integer>
-			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
-			<key>AudioOut</key>
 			<integer>0</integer>
+			<key>AudioDevice</key>
+			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
+			<key>AudioOut</key>
+			<integer>1</integer>
 			<key>AudioSupport</key>
 			<true/>
 			<key>MinimumVolume</key>
-			<integer>70</integer>
+			<integer>50</integer>
 			<key>PlayChime</key>
-			<string>Enabled</string>
-			<key>VolumeAmplifier</key>
-			<integer>143</integer>
+			<string>True</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>5000</integer>
+			<integer>0</integer>
+			<key>VolumeAmplifier</key>
+			<integer>121</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
@@ -1943,16 +1939,16 @@
 		</dict>
 		<key>Output</key>
 		<dict>
-			<key>GopPassThrough</key>
-			<string>Disabled</string>
-			<key>ForceResolution</key>
-			<false/>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
 			<false/>
+			<key>ForceResolution</key>
+			<false/>
+			<key>GopPassThrough</key>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
@@ -1972,13 +1968,13 @@
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
-			<key>AppleEg2Info</key>
-			<false/>
 			<key>AppleAudio</key>
 			<false/>
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
+			<false/>
+			<key>AppleEg2Info</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
@@ -2011,22 +2007,22 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>ForgeUefiSupport</key>
+			<key>ActivateHpetSupport</key>
 			<false/>
-			<key>ReloadOptionRoms</key>
+			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>EnableVectorAcceleration</key>
 			<true/>
-			<key>DisableSecurityPolicy</key>
-			<false/>
-			<key>ActivateHpetSupport</key>
-			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForgeUefiSupport</key>
+			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<true/>
+			<key>ReloadOptionRoms</key>
+			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>TscSyncTimeout</key>
