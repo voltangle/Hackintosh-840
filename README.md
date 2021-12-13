@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Working-yes-green)
-![](https://img.shields.io/badge/Latest%20supported-Monterey%2011.2-purple)
+![](https://img.shields.io/badge/Latest%20supported-Monterey-purple)
 ![](https://img.shields.io/github/issues-raw/GGorAA/Hackintosh-840?color=yellow)
 ![](https://img.shields.io/github/issues-pr/GGorAA/Hackintosh-840)
 
