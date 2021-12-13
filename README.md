@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Working-yes-green)
-![](https://img.shields.io/badge/Latest%20supported-Big%20Sur%2011.2-orange)
+![](https://img.shields.io/badge/Latest%20supported-Monterey%2011.2-purple)
 ![](https://img.shields.io/github/issues-raw/GGorAA/Hackintosh-840?color=yellow)
 ![](https://img.shields.io/github/issues-pr/GGorAA/Hackintosh-840)
 
@@ -8,7 +8,6 @@ This repo contains EFI configuration, kext and many more for HP ElteBook 840 G3 
 
 ## Contents
 
-  - [Compatibility table](#compatibility-table)
   - [Working components](#working-components)
   - [Known bugs](#known-bugs)
   - [Installation](#installation)
@@ -19,14 +18,6 @@ This repo contains EFI configuration, kext and many more for HP ElteBook 840 G3 
         - [Step three.two: install serial number and UUID to fix Apple ID, iCloud, App Store, iMessage and more](#step-threetwo-install-serial-number-and-uuid-to-fix-apple-id-icloud-app-store-imessage-and-more)
         - [Step three.three: make boot look nice](#step-threethree-make-boot-look-nice)
      - [Step four: enjoy!](#step-four-enjoy)
-     
-## Compatibility table
-### If the macOS version is not included in this list, it means that that version is not supported
-
-| macOS Codename | macOS Version | Support | Planned support | Stability |
-| --- | --- | --- | --- | --- |
-| Big Sur | 11.2.3 | Yes | Yes | Stable |
-| Big Sur | 11.2 | Yes | Yes | Stable |
 
 ## Working components
 
